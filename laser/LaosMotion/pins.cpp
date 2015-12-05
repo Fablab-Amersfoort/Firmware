@@ -18,15 +18,15 @@ DigitalOut eth_speed(p30); // yellow
 DigitalOut enable(p7);
 DigitalOut xdir(p23);
 DigitalOut xstep(p24);
-DigitalOut ydir(p25);
-DigitalOut ystep(p26);
-DigitalOut zdir(p27);
-DigitalOut zstep(p28);
+DigitalOut ydir(p27);     // p25
+DigitalOut ystep(p28);    // p26
+DigitalOut zdir(p29);     // p27
+DigitalOut zstep(p30);    // p28
 
 // Inputs;
 DigitalIn xhome(p8);
-DigitalIn yhome(p17);
-DigitalIn zmin(p15);
+DigitalIn yhome(p16);     // p17
+DigitalIn zmin(p16);      // p15
 DigitalIn zmax(p16);
 
 // laser IO
